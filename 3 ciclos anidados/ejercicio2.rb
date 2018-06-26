@@ -24,3 +24,18 @@ Generar el código para imprimir la siguiente tabla:
   <tbody>
  </table>
 =end
+
+
+td = ''
+for a in 1..4
+  for b in 1..4
+    total=a*b
+    td = "<td>"+ total.to_s + " </td>\n"
+    print td
+  end
+   print "\n"
+end
+
+
+
+

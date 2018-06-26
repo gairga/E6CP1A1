@@ -12,11 +12,11 @@
  9
  par
 =end
-
+#odd
 a = 10
 a.times do |i|
-  puts i
   if i.even?
+    puts i
     puts 'par'
   end
 end
